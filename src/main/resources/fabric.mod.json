@@ -1,0 +1,19 @@
+{
+    "schemaVersion": 1,
+    "id": "serversidedeatingoptimizer",
+    "version": "${version}",
+    "name": "Server Sided Eating Optimizer",
+    "description": "Server side eating fix for high ping players.",
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+        "main": ["com.variantseat.VariantsEat"]
+    },
+    "depends": {
+        "fabricloader": ">=0.16.0",
+        "minecraft": "~1.21.11",
+        "java": ">=21",
+        "fabric-api": "*"
+    },
+    "mixins": ["variantseat.mixins.json"]
+}

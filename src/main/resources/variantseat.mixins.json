@@ -1,0 +1,13 @@
+{
+    "required": false,
+    "minVersion": "0.8",
+    "package": "com.variantseat.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "UseItemMixin",
+        "LivingEntityAccess"
+    ],
+    "injectors": {
+        "defaultRequire": 0
+    }
+}
